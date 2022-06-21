@@ -1,0 +1,112 @@
+:root{
+  --primary-color: #EA4C3C;
+  --secondary-color: #9292AE;
+  --text-color: #393A62;
+}
+
+body{
+  color: var(--text-color);
+}
+
+/* reboot */
+
+.text-area:focus-visible{
+  border: none !important;
+  outline: 0 !important;
+}
+
+textarea:focus-visible {
+  outline-offset: none;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+i{
+  opacity: .7;
+  transition: all .3s ease 0s;
+}
+
+i:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* reboot */
+
+.mr-5{
+  margin-right: 15px;
+}
+
+/* title  */
+
+.title span{
+  color: var(--primary-color);
+}
+
+.title-icon{
+  opacity: 1;
+}
+
+/* title  */
+
+/* add button  */
+
+.add-btn{
+  color: #fff;
+  background-color: var(--primary-color);
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: all .3s ease 0s;
+}
+
+.add-btn:hover{
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.add-icon{
+  color: #fff;
+}
+
+.add-btn:hover .add-icon{
+  color: var(--primary-color);
+}
+
+/* add button  */
+
+/* note  */
+
+.tools{
+  background-color: var(--primary-color);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.note, .text-area{
+  border-radius: 10px;
+}
+
+.main{
+  height: 200px;
+}
+
+#text-area{
+  height: 200px;
+}
+
+/* note  */
+
+/* js part  */
+
+.main.hidden{
+  display: none;
+}
+
+#text-area.hidden{
+  display: none;
+}
+
+/* js part  */
